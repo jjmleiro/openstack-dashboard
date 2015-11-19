@@ -138,7 +138,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # For multiple regions uncomment this configuration, and add (endpoint, title).
 
-OPENSTACK_KEYSTONE_URL = "http://192.10.0.15:5000/v2.0"
+OPENSTACK_KEYSTONE_URL = "http://192.10.0.16:5000/v2.0"
 OPENSTACK_KEYSTONE_DEFAULT_ROLE = "_member_"
 
 # Disable SSL certificate checks (useful for self-signed certificates):

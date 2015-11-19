@@ -18,3 +18,8 @@
 .btn-primary:hover {
   @include btn-shadow($btn-primary-bg);
 }
+
+ body {
+    background: none;    
+    color: #fff;
+  }

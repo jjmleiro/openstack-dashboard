@@ -2,13 +2,27 @@
 // RCUE - Login
 // --------------------------------------------------
 //
+@font-face {
+    font-family: Dsignes Bold;
+    src: url(../font/font/DsignesB.ttf);
+}
+
+.title-cloud {
+  font-family: Dsignes Bold;
+  font-size: 24px;
+  color: #FFFFFF;
+}
 
 .login-rcue {
   height: 100%;
-  body {
-    background: #1D2226 url("#{$img-path}/bg-login.jpg") repeat-x 45% 0 !important;
-    background-size: 100% auto !important;
-    color: #fff;
+  body {    
+    background: url("#{$img-path}/fondo.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    color: #FFFFFF;
+    font-family: Dsignes Bold;
   }
   #brand {
     position: relative;
@@ -22,21 +36,14 @@
     }
   }
   .btn-primary {
-    background-color: #1aa3dc;
-    background-image: -moz-linear-gradient(top, #1cace8, #1998cc);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1cace8), to(#1998cc));
-    background-image: -webkit-linear-gradient(top, #1cace8, #1998cc);
-    background-image: -o-linear-gradient(top, #1cace8, #1998cc);
-    background-image: linear-gradient(to bottom, #1cace8, #1998cc);
-    border-color: #267da1;
-    border-color: rgba(0,0,0,.3);
+    background-color: #87BAAC;    
     -moz-border-radius: 1px !important;
     -webkit-border-radius: 1px !important;
     border-radius: 1px !important;
     -moz-box-shadow: 0 2px 3px rgba(0,0,0,.1);
     -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.1);
     box-shadow: 0 2px 3px rgba(0,0,0,.1);
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: Dsignes Bold;
     font-size: 13px;
     font-weight: 600;
     padding: 6px 10px;
@@ -52,12 +59,11 @@
     &.active,
     &.disabled,
     &[disabled] {
-      background-color: #189ad1;
+      background-color: #55A08E;
     }
   }
   .container {
-    background-color: #252a2e;
-    background-color: rgba(0, 0, 0, 0.3);
+    
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     bottom: 13%;
@@ -100,7 +106,7 @@
       padding: 2px 6px;
     }
     label {
-      color: #fff;
+      color: #FFFFFF;
       font-size: $font-size-base + 1;
       font-weight: 400;
       margin: 0 auto 5px;
@@ -124,7 +130,7 @@
   .modal-header {
     display: none;
   }
-  #redhat {
+  #keedio {
     display: block;
     float: right;
     margin: 50px 64px 70px auto;
